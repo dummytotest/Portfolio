@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viraj Vikram Singh - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+    <header class="bg-gray-900/80 backdrop-blur-sm fixed top-0 left-0 right-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-end items-center">
+            <nav class="hidden md:flex space-x-8">
+                <a href="#about" class="hover:text-cyan-400 transition-colors">About</a>
+                <a href="#skills" class="hover:text-cyan-400 transition-colors">Skills</a>
+                <a href="#projects" class="hover:text-cyan-400 transition-colors">Projects</a>
+                <a href="#experience" class="hover:text-cyan-400 transition-colors">Experience</a>
+                <a href="#contact" class="hover:text-cyan-400 transition-colors">Contact</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="#about" class="block py-2 hover:text-cyan-400 transition-colors">About</a>
+            <a href="#skills" class="block py-2 hover:text-cyan-400 transition-colors">Skills</a>
+            <a href="#projects" class="block py-2 hover:text-cyan-400 transition-colors">Projects</a>
+            <a href="#experience" class="block py-2 hover:text-cyan-400 transition-colors">Experience</a>
+            <a href="#contact" class="block py-2 hover:text-cyan-400 transition-colors">Contact</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 pt-24">
+
+        <section id="home" class="min-h-[calc(100vh-96px)] flex items-center">
+            <div class="max-w-4xl">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-4">
+                    Viraj Vikram Singh
+                </h1>
+                <p class="text-xl md:text-2xl text-cyan-400 font-semibold mb-6">
+                    Aspiring Developer & Data Analyst
+                </p>
+                <p class="text-gray-300 max-w-2xl mb-8">
+                    A motivated and detail-oriented student with a strong foundation in Python, data analysis, and web development. Passionate about building practical applications and contributing to open-source projects.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="mailto:virajvikramsingh.work@gmail.com" class="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105 flex items-center space-x-2">
+                        <i data-lucide="mail"></i>
+                        <span>Email Me</span>
+                    </a>
+                    <a href="https://linkedin.com/in/virajvsingh" target="_blank" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105 flex items-center space-x-2">
+                        <i data-lucide="linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1mN7KyMdr8Tmr_gfBAKo1W3PgdRccqutX/view?usp=sharing" target="_blank" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105 flex items-center space-x-2">
+                        <i data-lucide="file-text"></i>
+                        <span>View CV</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-20 section">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">About Me</h2>
+            <div class="grid md:grid-cols-5 gap-12 items-center">
+                <div class="md:col-span-3">
+                    <h3 class="text-2xl font-bold text-cyan-400 mb-4">My Mission</h3>
+                    <p class="text-gray-300 mb-8 leading-relaxed">
+                        My mission is to leverage technology to create practical, high-impact solutions that solve real-world problems. I am driven by a passion for continuous learning and a desire to contribute meaningfully to the open-source community. I thrive in collaborative environments where I can tackle complex challenges, experiment with new technologies, and work with others to transform innovative ideas into tangible, functional applications. Every line of code is an opportunity to build something better.
+                    </p>
+                    <h3 class="text-2xl font-bold text-cyan-400 mb-4">Education</h3>
+                    <div class="glass-effect p-6 rounded-lg">
+                        <p class="text-lg font-semibold text-white">Salwan Public School, Mayur Vihar, New Delhi</p>
+                        <p class="text-gray-400">Grade 12 (PCM) | Graduated April 2024</p>
+                        <p class="text-cyan-400 mt-2">Scored 91%</p>
+                    </div>
+                </div>
+                <div class="md:col-span-2 flex justify-center">
+                    <div class="w-64 h-64 rounded-full bg-cyan-500/20 flex items-center justify-center">
+                        <div class="w-56 h-56 rounded-full bg-cyan-500/40 flex items-center justify-center">
+                            <img src="https://placehold.co/200x200/164e63/ffffff?text=VVS" alt="Viraj Vikram Singh" class="rounded-full object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="py-20 section">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">Technical Skills</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+                    <div class="glass-effect p-6 rounded-lg flex flex-col items-center justify-center text-center hover:border-cyan-400 transition-all duration-300">
+                        <i data-lucide="code" class="w-12 h-12 text-cyan-400 mb-3"></i>
+                        <h4 class="font-semibold text-white">Python</h4>
+                    </div>
+                    <div class="glass-effect p-6 rounded-lg flex flex-col items-center justify-center text-center hover:border-cyan-400 transition-all duration-300">
+                        <i data-lucide="code-xml" class="w-12 h-12 text-cyan-400 mb-3"></i>
+                        <h4 class="font-semibold text-white">HTML & CSS</h4>
+                    </div>
+                    <div class="glass-effect p-6 rounded-lg flex flex-col items-center justify-center text-center hover:border-cyan-400 transition-all duration-300">
+                        <i data-lucide="database-zap" class="w-12 h-12 text-cyan-400 mb-3"></i>
+                        <h4 class="font-semibold text-white">MySQL</h4>
+                    </div>
+                    <div class="glass-effect p-6 rounded-lg flex flex-col items-center justify-center text-center hover:border-cyan-400 transition-all duration-300">
+                        <i data-lucide="layout-template" class="w-12 h-12 text-cyan-400 mb-3"></i>
+                        <h4 class="font-semibold text-white">Tkinter</h4>
+                    </div>
+                    <div class="glass-effect p-6 rounded-lg flex flex-col items-center justify-center text-center hover:border-cyan-400 transition-all duration-300">
+                        <i data-lucide="bar-chart-2" class="w-12 h-12 text-cyan-400 mb-3"></i>
+                        <h4 class="font-semibold text-white">Pandas</h4>
+                    </div>
+                    <div class="glass-effect p-6 rounded-lg flex flex-col items-center justify-center text-center hover:border-cyan-400 transition-all duration-300">
+                        <i data-lucide="binary" class="w-12 h-12 text-cyan-400 mb-3"></i>
+                        <h4 class="font-semibold text-white">NumPy</h4>
+                    </div>
+                    <div class="glass-effect p-6 rounded-lg flex flex-col items-center justify-center text-center hover:border-cyan-400 transition-all duration-300">
+                        <i data-lucide="pie-chart" class="w-12 h-12 text-cyan-400 mb-3"></i>
+                        <h4 class="font-semibold text-white">Matplotlib</h4>
+                    </div>
+                    <div class="glass-effect p-6 rounded-lg flex flex-col items-center justify-center text-center hover:border-cyan-400 transition-all duration-300">
+                        <i data-lucide="github" class="w-12 h-12 text-cyan-400 mb-3"></i>
+                        <h4 class="font-semibold text-white">Git & GitHub</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-20 section">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">Projects</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="glass-effect rounded-lg overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-cyan-400 mb-3">Inter-House Voting System</h3>
+                        <p class="text-gray-300 leading-relaxed mb-4">
+                            Developed and deployed a comprehensive desktop voting application using Python and Tkinter for the UI, and an SQL database for secure data management. The system was successfully used in a school-wide election, flawlessly recording and tallying over 800 votes, with Matplotlib integrated for real-time result visualization.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-cyan-900 text-cyan-300 text-sm font-medium px-3 py-1 rounded-full">Python</span>
+                            <span class="bg-cyan-900 text-cyan-300 text-sm font-medium px-3 py-1 rounded-full">Tkinter</span>
+                            <span class="bg-cyan-900 text-cyan-300 text-sm font-medium px-3 py-1 rounded-full">SQL</span>
+                            <span class="bg-cyan-900 text-cyan-300 text-sm font-medium px-3 py-1 rounded-full">Matplotlib</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass-effect rounded-lg overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-cyan-400 mb-3">Automated Plant Watering System</h3>
+                        <p class="text-gray-300 leading-relaxed mb-4">
+                            Designed and prototyped an Arduino-based soil moisture detector to automate plant watering. This project was recognized by the Inspire Awards Manak Scheme and received a grant from the Department of Science and Technology (DST), Government of India for its innovation and practical application.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-cyan-900 text-cyan-300 text-sm font-medium px-3 py-1 rounded-full">Arduino</span>
+                            <span class="bg-cyan-900 text-cyan-300 text-sm font-medium px-3 py-1 rounded-full">Prototyping</span>
+                            <span class="bg-cyan-900 text-cyan-300 text-sm font-medium px-3 py-1 rounded-full">Hardware</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="py-20 section">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">Experience</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="glass-effect p-8 rounded-lg relative">
+                    <div class="absolute top-8 left-0 -translate-x-1/2 w-4 h-4 bg-cyan-400 rounded-full"></div>
+                    <p class="text-gray-400 mb-1">Nov 2022 - Jan 2023 (Remote)</p>
+                    <h3 class="text-2xl font-bold text-cyan-400 mb-2">Intern at Masters Union</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Analyzed brand datasets to develop test cases and provide actionable suggestions, achieving a rank in the top 50 out of over 6,500 participants for analytical and problem-solving skills.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="awards" class="py-20 section">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">Certifications & Awards</h2>
+            <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+                <div class="glass-effect p-6 rounded-lg flex items-center space-x-4">
+                    <i data-lucide="award" class="w-10 h-10 text-cyan-400 flex-shrink-0"></i>
+                    <div>
+                        <h4 class="font-semibold text-white">Python (Basic) & SQL (Basic)</h4>
+                        <p class="text-gray-400">HackerRank | Oct 2023</p>
+                    </div>
+                </div>
+                <div class="glass-effect p-6 rounded-lg flex items-center space-x-4">
+                    <i data-lucide="award" class="w-10 h-10 text-cyan-400 flex-shrink-0"></i>
+                    <div>
+                        <h4 class="font-semibold text-white">Inspire Awards Manak Scheme</h4>
+                        <p class="text-gray-400">Dept. of Science & Technology, India | 2019</p>
+                    </div>
+                </div>
+                <div class="glass-effect p-6 rounded-lg flex items-center space-x-4 md:col-span-2">
+                    <i data-lucide="award" class="w-10 h-10 text-cyan-400 flex-shrink-0"></i>
+                    <div>
+                        <h4 class="font-semibold text-white">National, State, and School Level Medals</h4>
+                        <p class="text-gray-400">Silverzone, TERI, and Orange Olympiads</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 section">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-white">Get In Touch</h2>
+            <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
+                I'm currently seeking new opportunities and open to collaboration. Feel free to reach out via email or connect with me on LinkedIn.
+            </p>
+            <div class="text-center">
+                <a href="mailto:virajvikramsingh.work@gmail.com" class="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-4 px-8 rounded-lg transition-transform transform hover:scale-105 inline-flex items-center space-x-2 text-lg">
+                    <i data-lucide="mail"></i>
+                    <span>virajvikramsingh.work@gmail.com</span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900/50 border-t border-gray-800">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-400">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="https://linkedin.com/in/virajvsingh" target="_blank" class="hover:text-cyan-400 transition-colors"><i data-lucide="linkedin" class="w-6 h-6"></i></a>
+                <a href="mailto:virajvikramsingh.work@gmail.com" class="hover:text-cyan-400 transition-colors"><i data-lucide="mail" class="w-6 h-6"></i></a>
+            </div>
+            <p>&copy; 2025 Viraj Vikram Singh. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+</body>
+</html>
